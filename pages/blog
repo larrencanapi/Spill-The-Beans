@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <title>Industries</title>
+    <link rel="stylesheet" type="text/css" href="../css/industries.css">
+</head>
+
+<body>
+    
+    <header>
+        <nav>
+            <ul class="topnav">
+              <li><a href="../index.html" class="active">HOME</a></li>
+              <li><a href="../Pages/About.html">ABOUT</a></li>
+              <li><a href="../Pages/Industries.html">INDUSTRIES</a></li>
+              <li><a href="../Pages/Ourteam.html">OUR TEAM</a></li>
+              <li><a href="../Pages/Contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>  
+    </header>
+    <main>
+        <h1><span>INDUSTRIES</span></h1>
+        <div class="industry1-flex">
+        <section class="industry-type1">
+            <img src="../img/security-img.jpg" alt="Cyber security image" width="420" height="280" >
+            <h2 class="industry-header">Cyber Security</h2>
+            <p class="industry-p">Cyber security is ensuring that companies all over the world are protected from malicious viruses, malware and hackers. Cybersecurity start-ups provide protection for companies, from these issues and their consumers.</p>
+           <button onclick="location.href='./Industry1.html'"  type="button" class="industry-button"> Learn more</button>
+        </section>
+         
+        <section class="industry-type2">
+            <img src="../img/security-img.jpg" alt="Cyber security image" width="420" height="280" >
+            <h2 class="industry-header">Game Development</h2>
+            <p class="industry-p">The game development startups are all finding new and innovative ideas for gamers to enjoy playing. From augumented reality to Virtual reality, the gaming side of tech will bring you something new every day. For more infomation click here.</p>
+           <button onclick="location.href='./Industry2.html'"  type="button" class="industry-button"> Learn more</button>
+        </section>
+        </div>
+    </main>
+<script src="../js/Industries.js"></script>
+</body>
+ 
+</html>
