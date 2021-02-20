@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
 
-  var string = document.getElementsByTagName('p');
+  var string = document.getElementsByTagName('button');
   var numberofheadings = string.length;
  console.log( string[0].innerText.length)
   for(var i = 0; i < numberofheadings; i++) {
