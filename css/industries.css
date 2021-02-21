@@ -5,6 +5,32 @@ body {
   padding: 0;
 }
 
+.topnav {
+  background-color: #ceddc0;
+}
+
+.industries {
+  color: #08493e;
+}
+
+strong {
+  font-family: 'Lobster';
+  font-size: 40px;
+}
+
+li a {
+  display: block;
+  color: #5d837c;
+  text-align: center;
+  padding: 14px 16px;
+  margin: 6px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #08493e;
+}
+
 .footer {
   background: black;
   color: white;
@@ -24,9 +50,10 @@ ul li {
 
 h1 {
   text-align: center;
-  font-family: monospace;
-  font-size: 52px;
-  padding-top: 70px;
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #08493e;
+  padding-top: 10%;
 }
 button {
   background-color: #000000;
@@ -56,12 +83,13 @@ div {
   flex-wrap: wrap;
 }
 .industry-header {
-  font-family: monospace;
+  font-family: 'Roboto';
   font-size: 30px;
 }
 .industry-p {
   text-align: center;
   font-size: 18px;
+  font-family: 'Montserrat';
 }
 span {
   border-bottom: 4px solid rgb(209, 54, 54);
@@ -84,4 +112,42 @@ span {
     padding: 12px 14px;
     margin: auto;
   }
+}
+
+p {
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+
+p.LearnMore {
+  padding-top: 10px;
+  color: #ebd7d7;
+}
+
+.footer {
+  text-align: center;
+  background: black;
+  color: white;
+  height: 140px;
+  position: relative;
+}
+.footerColumn {
+  flex-direction: row;
+}
+.footer .footer-bottom {
+  color: rgb(224, 224, 224);
+  text-align: center;
+  font-family: monospace;
+  position: absolute;
+}
+
+.socials {
+  display: flex;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  cursor: pointer;
+  padding-bottom: 50px;
 }
