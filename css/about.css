@@ -27,6 +27,12 @@ strong {
   -webkit-text-fill-color: transparent;
 }
 
+.logo {
+  margin: 0 auto;
+  display: block;
+  height: 200px;
+}
+
 #ProfilePic {
   width: 202px;
   height: 260px;
@@ -98,13 +104,12 @@ strong {
 }
 
 .topPics {
-  padding-left: 16%;
-  padding-right: 16%;
+  padding-left: 240px;
+  padding-right: 240px;
 }
 
 div.aboutUs,
-div.ourMission,
-div.ourTeam {
+div.ourMission {
   margin-top: 10%;
   margin-bottom: 26%;
   padding-left: 12%;
@@ -118,18 +123,24 @@ div.aboutUs {
 }
 
 div.ourMission {
-  padding-top: 1em;
-  padding-left: 12em;
+  padding-top: 12em;
+  padding-left: 16em;
+  margin-bottom: 200px;
+}
+
+div.ourTeam h2 {
+  margin-left: 0;
+  padding-left: 0;
+  text-align: center;
 }
 
 div.ourTeam {
-  padding-top: 0%;
-  margin-bottom: 16%;
-}
-
-.ourTeam p {
-  color: #0c7060;
-  font-family: monospace;
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-top: 0;
+  margin-bottom: 100px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
 }
 
 .ourMission p {
