@@ -3,26 +3,19 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #fdf1f1;
 }
 
-ul {
-  text-align: right;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: black;
-  position: fixed;
-  top: 0;
-  width: 100%;
+h1 {
+  text-align: center;
+  font-size: 34px;
+  color: #e46363;
+  padding-top: 120px;
+  position: relative;
 }
-
-#ProfilePic {
-  width: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 15px;
+.topnav {
+  left: 0;
+  z-index: 100;
 }
 
 li {
@@ -31,14 +24,21 @@ li {
   font-family: "Open Sans", sans-serif;
 }
 
-ul li {
-  display: inline-block;
+li a {
+  display: block;
+  color: #cc9292;
+  text-align: center;
+  padding: 14px 16px;
+  margin: 6px;
+  text-decoration: none;
 }
 
-h1 {
-  text-align: center;
-  font-family: monospace;
-  font-size: 52px;
+li a:hover {
+  color: #e46363;
+}
+
+ul li {
+  display: inline-block;
 }
 
 .meet-team {
@@ -71,29 +71,14 @@ main {
 .card {
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
   border-style: solid;
-  border-color: #324f5c;
+  border-color: #b0b3b4;
   margin: 8px;
-  border-radius: 25px;
+  border-radius: 12px;
   background-color: auto;
   padding-top: 20px;
 }
 .profilePic {
   border-radius: 25px;
-}
-
-.container {
-  padding: 0 16px;
-}
-
-.container::after,
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.title {
-  color: grey;
 }
 
 .button {
@@ -113,31 +98,38 @@ main {
   background-color: #555;
 }
 
-.footer {
-  background: black;
-  color: white;
-  height: 70px;
-  position: relative;
+p.LearnMore {
+  padding-top: 10px;
+  color: #ebd7d7;
 }
 
-.footer .footer-bottom {
+.footer {
+  text-align: center;
+  background: black;
   color: white;
-  width: 100%;
-  left: 0px;
+  height: 140px;
+  position: relative;
   bottom: 0px;
-  text-align: left;
+}
+.footerColumn {
+  flex-direction: row;
+}
+.footer .footer-bottom {
+  color: rgb(224, 224, 224);
+  text-align: center;
+  font-family: monospace;
   position: absolute;
-  padding-top: 20px;
-  height: 30px;
 }
 
 .socials {
+  display: flex;
   position: absolute;
-  top: 40%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   cursor: pointer;
+  padding-bottom: 50px;
 }
 
 .fa {
@@ -149,32 +141,6 @@ main {
   transition: 0.5s;
 }
 
-#Lilla {
-  width: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-#HweiLinn {
-  width: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#Salwa {
-  width: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#Aditi {
-  width: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 @media screen and (max-width: 900px) {
   .column {
@@ -193,3 +159,12 @@ main {
     margin: auto;
   }
 }
+
+div.card {
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 1000px;
+  display: block;
+  margin: 0 auto;
+}
+
