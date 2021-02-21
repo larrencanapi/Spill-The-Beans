@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+ <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8" />
-    <title>Contact Us - Top Tech Start Ups</title>
+    <title>Share Your Story</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/team.css">
@@ -22,46 +22,64 @@
                 <a href="index.html"><img class="beanLogo" src="../img/logos/spillTheBeansLogo.png"></a>
               <li><a href="../index.html">HOME</a></li>
               <li><a href="../Pages/About.html" class="aboutUsBtn">ABOUT US</a></li>
-              <li><a href="../Pages/Industries.html">INDUSTRIES</a></li>
-              <li><a href="../Pages/Ourteam.html">STORIES</a></li>
-              <li><a href="../Pages/Contact.html">CONTACT</a></li>
-              <li><a href="" class="donate">DONATE</a></li>
+            <li><a href="../Pages/Industries.html">ABOUT FAIR TRADE</a></li>
+            <li><a href="../Pages/Ourteam.html">STORIES</a></li>
+            <li><a target="_blank" href="https://www.figma.com/proto/C8KryiIe5M2POSG38GmqTJ/Spill-The-Beans-Webpage?node-id=25%3A154&viewport=-248%2C460%2C0.13211475312709808&scaling=contain">FIGMA PROTOTYPE</a></li>
+            <li><a href="../Pages/Contact.html" class="donate">SHARE YOUR STORY</a></li>
             </ul>
             </div>
         </nav>  
     </header>
-        
-    <br>
-    <br>
-    <br>
-    <main>
+    <header>
 
         <br>
         <br>
-        <br>
+        <br> 
+        <main>
+
+        <h1><span>Share Your Story</span></h1>
+<br>
+        <article>
+            <p class="more-info"> 
+                If you are a <b>Fair Trade Producer</b> or are on the path to becoming one, we want to hear from you! <br>
+            </p>
+            <p class="more-info">
+                Please feel free to write an article sharing your story and experience with the journey to fair trade and what that has meant for you.
+            </p>
+        </article>
+
         <div class="container">
             <h1 class="mb-4">New Article</h1>
-            <form action="/articles" method="POST">
+            <form action="../Pages/About.html" 
+            method="POST"
+            enctype="multipart/form-data"
+            name="article">
+                <div class="form-group"><label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.." size="29">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name.." size="29">
+                </div>
                 <div class="form-group">
                     <label for="title">Title</label>
                     <input type="text" name="title" id="title" class="form-control">
                 </div>
                 <div class="form-group">
-                    <label for="description">Description</label>
-                    <textarea name="description" id="description" class="form-control">
+                    <label for="description">Article</label>
+                    <textarea name="description" id="description" style="height:170px" class="form-control">
                 
                     </textarea>
                 </div>
                 <a href="/" class="btn btn-secondary">Cancel</a>
-                
-                <button type="submit" class="btn btn-primary">Save</button>
-            </form>
+                <button type="submit" value="Submit" class="btn btn-primary">Post</button>
+
         </div>
 
         <br>
         <br>
         <br>
     </main>
+        
+
     <footer class="footer">
         <div class="footerColumn">
             <p class="LearnMore">
