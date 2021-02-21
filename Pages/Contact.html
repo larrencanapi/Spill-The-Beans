@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8" />
     <title>Contact Us - Top Tech Start Ups</title>
-    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/connect.css">
     <link rel="stylesheet" media="screen and (min-width: 900px)" href="./css/contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -36,25 +36,31 @@
 
         <article>
             <p class="ourteam-info"> 
-                If you know a <b>Top Tech Start Up</b> that should be 
+                If you know a <b>Fair Trade Producer</b> that should be 
                 be included on the website, please contact us, using the form below! <br>
             </p>
             <p class="more-info">
-                For more information, or any other enquires, follow our social media, or fill
+                For more information, or any other enquires,feel free to fill
                 the form below and we will contact you as soon as we can
             </p>
         </article>
 
         <div class="container">
 
-        <form action="../Pages/About.html">
+        <form action="../Pages/About.html"
+        method="POST"
+        enctype="multipart/form-data"
+        name="article">
+        <section>
             <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." size="29">
             <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-            <input type="submit" value="Submit">
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." size="29">
+            <label for="Article">Article</label>
+        </section>
+        <section><textarea cdkTextareaAutosize id="Article" name="Article" placeholder="Write something.." style="height:170px" size="10000"></textarea></section>
+            
+            <input class="submitButton" type="submit" value="Submit">
           </form>
         </div>
 
