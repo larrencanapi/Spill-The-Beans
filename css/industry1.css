@@ -27,20 +27,6 @@ ul li {
   display: inline-block;
 }
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  margin: 6px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: white;
-  color: black;
-  border-radius: 25px;
-}
 .sector {
   text-align: center;
   font-family: monospace;

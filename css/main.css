@@ -38,19 +38,13 @@ li {
   display: inline-block;
 }
 
-li a {
-  display: block;
-  color: white;
+h1 {
   text-align: center;
-  padding: 14px 16px;
-  margin: 6px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: white;
-  color: black;
-  border-radius: 25px;
+  font-size: 50px;
+  color: #e46363;
+  padding-top: 20%;
+  position: relative;
+  font-family: 'Roboto';
 }
 
 h2 {
