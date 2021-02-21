@@ -6,6 +6,10 @@ body {
   background-color: #fdf1f1;
 }
 
+li a.aboutUsBtn {
+  color: #e46363;
+}
+
 li {
   font-weight: bold;
   font-size: 16px;
@@ -14,15 +18,6 @@ li {
 
 ul li {
   display: inline-block;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  margin: 6px;
-  text-decoration: none;
 }
 
 strong {
@@ -62,12 +57,6 @@ strong {
 .topPics {
   padding-left: 16%;
   padding-right: 16%;
-}
-
-li a:hover {
-  background-color: white;
-  color: black;
-  border-radius: 25px;
 }
 
 div.aboutUs, div.ourMission, div.ourTeam {

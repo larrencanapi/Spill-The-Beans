@@ -1,21 +1,46 @@
 .beanLogo {
   position: fixed;
   z-index: 100;
-  height: 8em;
-  left: 10px;
-  top: 1px;
+  height: 7.5em;
+  left: 16px;
+  top: 4px;
+}
+
+.donate {
+  background-color: #EFC8A4;
+  color: #be7938;
+  border-radius: 16px;
 }
 
 .topnav {
   text-align: right;
   list-style: none;
-  margin: 0;
+  margin-top: 10px;
   padding: 0;
   overflow: hidden;
-  background-color: #5c3f32;
+  background-color: #e9dada;
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+li a {
+  display: block;
+  color: #cc9292;
+  text-align: center;
+  padding: 14px 16px;
+  margin: 6px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #e46363;
+}
+
+.donate:hover {
+  color: rgb(5, 109, 52);
+  border-radius: 16px;
+  background-color: rgb(55, 206, 123);
 }
 
 span {
