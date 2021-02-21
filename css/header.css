@@ -12,10 +12,15 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #5c4033;
+  background-color: #5c3f32;
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+span {
+  border-bottom: 4px solid #324f5c !important;
+  padding-bottom: 5px;
 }
 
 button {
@@ -35,7 +40,7 @@ body {
   background-color: beige;
 }
 .footer {
-  background: #324f5c !important;
+  background: #325c54 !important;
   color: white;
 }
 .footer .footer-bottom {

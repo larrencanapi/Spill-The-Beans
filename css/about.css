@@ -42,12 +42,8 @@ h2 {
 }
 
 span {
-  border-bottom: 4px solid rgb(209, 54, 54);
+  border-bottom: 4px solid #324f5c;
   padding-bottom: 5px;
-}
-
-.about-info {
-  text-align: center;
 }
 
 button {

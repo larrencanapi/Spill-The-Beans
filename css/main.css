@@ -3,7 +3,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("tech.jpg");
+  background-image: url("../img/backgrounds/coffee-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -62,11 +62,11 @@ h2 {
   font-family: "VT323", monospace;
 }
 
-h1 {
+.heading {
   text-align: center;
-  color: white;
+  color: #1a0c07;
   font-size: 72px;
-  font-family: "Monoton", cursive;
+  font-family: "Monoton", Times, monospace;
   position: absolute;
   top: 10%;
   width: 100%;
