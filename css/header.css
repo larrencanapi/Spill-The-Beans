@@ -13,6 +13,7 @@
 }
 
 .topnav {
+  z-index: 100;
   text-align: right;
   list-style: none;
   margin-top: 10px;
@@ -20,7 +21,7 @@
   overflow: hidden;
   background-color: #e9dada;
   position: fixed;
-  top: 0;
+  top: -10px;
   width: 100%;
 }
 
@@ -31,7 +32,7 @@ li a {
   padding: 14px 16px;
   margin: 6px;
   text-decoration: none;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 
 li a:hover {

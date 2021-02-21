@@ -14,7 +14,7 @@ body {
 }
 
 strong {
-  font-family: 'Lobster';
+  font-family: "Lobster";
   font-size: 40px;
 }
 
@@ -50,7 +50,7 @@ ul li {
 
 h1 {
   text-align: center;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 30px;
   color: #08493e;
   padding-top: 8%;
@@ -83,16 +83,17 @@ div {
   flex-wrap: wrap;
 }
 .industry-header {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 20px;
 }
 .industry-p {
   text-align: center;
   margin-top: 0;
   font-size: 18px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   margin-left: 6%;
   margin-right: 6%;
+  height: 100px;
 }
 span {
   border-bottom: 4px solid rgb(209, 54, 54);
@@ -119,7 +120,7 @@ span {
 
 p {
   font-size: 18px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 p.LearnMore {
@@ -155,8 +156,9 @@ p.LearnMore {
   padding-bottom: 50px;
 }
 
-.industry-type1, .industry_type2 {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+.industry-type1,
+.industry_type2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   padding: 0px 0px;
 }
