@@ -49,6 +49,35 @@ strong {
   padding-left: 12%;
 }
 
+.studentLeft {
+  padding-left: 18%;
+  padding-right: 18%;
+  padding-top: 1%;
+  padding-bottom: 5%;
+  font-family: 'Roboto';
+  color: #e46363;
+}
+
+.studentRight {
+  padding-left: 18%;
+  padding-right: 18%;
+  padding-top: 1%;
+  padding-bottom: 5%;
+  font-family: 'Roboto';
+  color: #e46363;
+  text-align: right;
+}
+
+.picLeft {
+  float: left;
+  padding-left: 12%;
+}
+
+.picRight {
+  float: right;
+  padding-right: 12%;
+}
+
 .larren {
   float: right;
   transform: rotate(9deg);
@@ -130,6 +159,12 @@ h3 {
   font-size: 32px;
 }
 
+h4 {
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 26px;
+}
+
 span {
   border-bottom: 4px solid #324f5c;
   padding-bottom: 5px;
@@ -169,6 +204,17 @@ p {
   font-size: 18px;
   padding: 5px 10em;
   font-family: "Roboto";
+  color: #0c7060;
+}
+
+a.email {
+  font-family: "Roboto";
+  color: #0c7060;
+}
+
+a.email::after {
+  font-family: "Roboto";
+  color: #0c7060;
 }
 
 p.LearnMore {
