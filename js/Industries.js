@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Your code here...
     console.log('Page has loaded')
   });
-var string = document.getElementsByTagName('p');
+var string = document.getElementsByTagName('button');
   var numberofheadings = string.length;
  console.log( string[0].innerText.length)
   for(var i = 0; i < numberofheadings; i++) {
@@ -66,9 +66,10 @@ image1.addEventListener('mouseenter', function(event){
     myLoop(4,event.target,images1)
     })
 
-var image2 = document.getElementsByClassName('industry-type2')[0].getElementsByTagName("img")[0];
-var images2 = ["../img/security-img.jpg", "../Logos/MeliorGamesLogo.png", "../Logos/Roblox Logo.png", "../Logos/TBC logo.png"];
-image2.addEventListener('mouseenter', function(event){
-    myLoop(4,event.target,images2)
-    })
 
+// The following code swaps to a second image which we currently do not have.
+    // var image2 = document.getElementsByClassName('industry-type2')[0].getElementsByTagName("img")[0];
+    // var images2 = ["../img/security-img.jpg", "../Logos/MeliorGamesLogo.png", "../Logos/Roblox Logo.png", "../Logos/TBC logo.png"];
+    // image2.addEventListener('mouseenter', function(event){
+    //     myLoop(4,event.target,images2)
+    //     })

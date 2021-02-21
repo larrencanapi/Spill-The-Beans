@@ -1,46 +1,35 @@
+@import "header.css";
+
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-ul {
-  text-align: right;
-     list-style: none;
-     margin: 0;
-     padding: 0;
-     overflow: hidden;
-     background-color: black;
-     position: fixed;
-     top: 0;
-     width: 100%;
- }
- 
- li { 
-     font-weight: bold;
-     font-size: 16px;
-     font-family: 'Open Sans', sans-serif;
- }
- 
- ul li {
-   display: inline-block;
- }
- 
- li a {
-   
-     display: block;
-     color: white;
-     text-align: center;
-     padding: 14px 16px;
-     margin: 6px;
-     text-decoration: none;
- }
- 
- li a:hover {
-     background-color: white;
-     color: black;
-     border-radius: 25px;
- }
-  
+li {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+
+ul li {
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  margin: 6px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 25px;
+}
+
 h1 {
   text-align: center;
   font-family: monospace;
@@ -49,11 +38,11 @@ h1 {
 
 h2 {
   text-align: center;
- color: grey;
+  color: grey;
 }
 
-span{
-  border-bottom:4px solid rgb(209, 54, 54);
+span {
+  border-bottom: 4px solid rgb(209, 54, 54);
   padding-bottom: 5px;
 }
 
@@ -61,7 +50,7 @@ span{
   text-align: center;
 }
 
-button { 
+button {
   background-color: #000000;
   border: none;
   color: white;
@@ -76,7 +65,7 @@ button {
 }
 
 .center {
-display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -114,13 +103,13 @@ p {
   height: 30px;
 }
 
-.socials {  
-position: absolute;
-top: 40%;
-left: 50%;
-transform: translate(-50%, -50%);
--ms-transform: translate(-50%, -50%);
-cursor: pointer;
+.socials {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  cursor: pointer;
 }
 
 .fa {
@@ -129,7 +118,7 @@ cursor: pointer;
   margin: 10px 30px;
   border: 1px solid white;
   border-radius: 30%;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 @media (max-width: 900px) {
@@ -137,11 +126,11 @@ cursor: pointer;
     padding: 4px 4px;
     margin: 5px 15px;
   }
-  li{
+  li {
     font-size: 14px;
   }
-  li  a{
+  li a {
     padding: 12px 14px;
-    margin:auto; 
+    margin: auto;
   }
 }
