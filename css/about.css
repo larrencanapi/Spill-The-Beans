@@ -54,6 +54,20 @@ strong {
   transform: rotate(9deg);
 }
 
+.cotton {
+  padding-left: 0%;
+}
+
+.cottonFarmer {
+  padding-top: 16%;
+  padding-left: 5%;
+  transform: rotate(-7deg);
+  float: left;
+  position: absolute;
+  height: 320px;
+  width: 281px;
+}
+
 .topPics {
   padding-left: 16%;
   padding-right: 16%;
@@ -62,13 +76,14 @@ strong {
 div.aboutUs, div.ourMission, div.ourTeam {
   margin-top: 10%;
   margin-bottom: 26%;
-  padding-left: 16%;
-  padding-right: 16%;
+  padding-left: 20%;
+  padding-right: 20%;
   font-family: 'Roboto', sans-serif;
 }
 
 div.ourMission {
   padding-top: 16%;
+  padding-left: 30%;
 }
 
 div.ourTeam {
