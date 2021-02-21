@@ -37,33 +37,33 @@ for(var i = 0; i < numberofbuttons; i++) {
 var image1 = document.getElementsByClassName('industry-type1')[0].getElementsByTagName("img")[0];
 var images1 = ["../img/security-img.jpg","../img/logos/cybersmart.png", "../img/logos/tessian.png", "../img/logos/cybsafe.png"];
 
-function myLoop(i,target,imagelist) {
+// function myLoop(i,target,imagelist) {
 
-    setTimeout(function() {   
-        console.log(target)
-        var j = imagelist.indexOf(String(target.getAttribute('src')));
-        var numberofimages = imagelist.length;
-        console.log(j);
+//     setTimeout(function() {   
+//         console.log(target)
+//         var j = imagelist.indexOf(String(target.getAttribute('src')));
+//         var numberofimages = imagelist.length;
+//         console.log(j);
         
-        if (j<numberofimages-1){
-            target.src = imagelist[j+1];
-        }
-        if (j==numberofimages-1){
-            target.src = imagelist[0];
-        }
+//         if (j<numberofimages-1){
+//             target.src = imagelist[j+1];
+//         }
+//         if (j==numberofimages-1){
+//             target.src = imagelist[0];
+//         }
      
             
         
         
-       //  your code here     
-        ;
-        if (--i) myLoop(i,target,imagelist);   //  decrement i and call myLoop again if i > 0
-    }, 1000)
+//        //  your code here     
+//         ;
+//         if (--i) myLoop(i,target,imagelist);   //  decrement i and call myLoop again if i > 0
+//     }, 1000)
 
-  };                   //  pass the number of iterations as an argument
+//   };                   //  pass the number of iterations as an argument
 
 image1.addEventListener('mouseenter', function(event){
-    myLoop(4,event.target,images1)
+    //myLoop(4,event.target,images1)
     })
 
 
