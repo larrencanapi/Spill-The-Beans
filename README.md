@@ -6,4 +6,5 @@ We aimed to help close the disconnect between fair trade producers and consumers
 We are a group of budding web developers who have taken 24 hours to create a project at Stormhacks 2021, and hope our website will help connect all people of the fair trade system.
 
 Created using: HTML, CSS, Javascript, Bootstrap, Figma
+
 Video Demo: https://www.youtube.com/watch?v=blBxOIbV0W0&ab_channel=LarrenCanapi
