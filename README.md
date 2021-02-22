@@ -9,4 +9,4 @@ Created using: HTML, CSS, Javascript, Bootstrap and Figma
 
 Special thanks to the Stormhacks 2021 Team, SFU Surge, and SFU Fair Trade for their help, resources, and planning the hackathon we participated in.
 
-Video Demo: https://www.youtube.com/watch?v=blBxOIbV0W0&ab_channel=LarrenCanapi
+Video Demo: [Link](https://www.youtube.com/watch?v=blBxOIbV0W0&ab_channel=LarrenCanapi)
